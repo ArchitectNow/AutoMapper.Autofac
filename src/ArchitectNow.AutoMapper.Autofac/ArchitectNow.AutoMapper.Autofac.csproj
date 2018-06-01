@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Authors>ArchitectNow</Authors>
+    <Company>ArchitectNow</Company>
+    <Product>ArchitectNow.AutoMapper.Autofac</Product>
+    <PackageId>ArchitectNow.AutoMapper.Autofac</PackageId>
+    <PackageProjectUrl>https://github.com/ArchitectNow/AutoMapper.Autofac</PackageProjectUrl>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/83fed82c32dc5424b4245cfc03d57b39?s=32&amp;r=g&amp;d=retro</PackageIconUrl>
+    <RepositoryUrl>https://github.com/ArchitectNow/AutoMapper.Autofack</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright © 2014-2018 ArchitectNow</Copyright>
+    <PackageLicenseUrl>https://github.com/ArchitectNow/AutoMapper.Autofac/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>ArchitectNow Framework - Models</Description>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\VersionAssemblyInfo.cs" Link="VersionAssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
